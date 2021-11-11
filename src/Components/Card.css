@@ -1,0 +1,47 @@
+.Card{
+    border-radius: 5px 0;
+    background-color: #c0e3e7;
+    padding: 20px;
+    width: 100%;
+    color: black;
+    background-attachment: fixed;
+    box-shadow: -4px 7px 15px 1px rgb(0 0 0 / 20%);
+}
+.image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+.Container{
+    text-align: center;
+    width: 250px;
+    background-attachment: fixed;
+}
+.cardContent{
+    margin-top: 10px;
+    background-attachment: fixed;
+}
+.Icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.icons{
+    justify-content: space-around;
+    display: flex;
+    width: 150px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1060px) {
+    .Container{
+        width: 100%;
+    }
+    .Card{
+        padding: 20px 0px;
+        border-radius: 0px;
+    }
+}

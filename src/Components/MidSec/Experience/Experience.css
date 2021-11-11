@@ -1,0 +1,144 @@
+.About {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: Quicksand, sans-serif;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+.WorkPage {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 7%;
+}
+
+.dotli::before {
+  content: ".";
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.sec-date {
+  background-color: #c0e3e7;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  margin-top: 16px;
+  padding: 8px 15px;
+  display: flexbox;
+  border-radius: 0px 20px 20px 0px;
+}
+.SecDot {
+  background-color: black;
+  width: 4px;
+  height: 4px;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.MainMern {
+  margin-left: 30px;
+  width: 70%;
+  font-size: 20px;
+  display: flexbox;
+  margin-left: 10px;
+  margin-top: -6px;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+/* this is a content Section in Work Expericen */
+.upworkTitle{
+    font-size: 16px;
+    color:#757575;
+    font-weight: bolder;
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 5px;
+}
+.SecLine{
+    display: flex;
+}
+.CardContent{
+    font-size: .870em;
+    color: black;
+    font-family: Quicksand, sans-serif;
+    line-height: 1.3em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* end section */
+@media (max-width: 768px) {
+  .MainMern {
+    margin-bottom: 22px;
+    margin-top: 0;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .SecDot{
+      display: none;
+  }
+  .sec-date{
+      display: none;
+  }
+  .dotli::before {
+    display: none;
+  }
+  .beforestep {
+    padding: 5px;
+    font-size: 0.625em;
+    color: #000;
+    position: relative;
+    background-color: #c0e3e7;
+    width: 100px;
+    display: flexbox;
+    padding-left: 20px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .dotseducation {
+    width: 4px;
+    height: 10px;
+    font-size: 40px;
+    color: #000;
+    font-weight: bolder;
+    margin: 0px;
+    margin-right: 10px;
+    padding: 0px;
+  }
+  .education-date {
+    background-color: #c0e3e7;
+    content: "";
+    font-size: 0.625em;
+    padding: 8px 15px;
+    border-radius: 20px 0px 0px 20px;
+    width: 10px;
+    padding-right: 30px;
+  }
+  .MainMern {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .education-date {
+    display: none;
+  }
+  .dotseducation {
+    display: none;
+  }
+  .MainMern {
+    margin-left: 10px;
+  }
+  .EduTiltle {
+    display: none;
+  }
+}
