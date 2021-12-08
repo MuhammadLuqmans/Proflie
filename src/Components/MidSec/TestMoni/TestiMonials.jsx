@@ -9,12 +9,12 @@ function TestiMonials() {
   return (
     <div className="TestiMonialpage">
       <p className="About">TESTIMONIALS</p>
-      <Grid xs={12} container sx={{ justifyContent: "space-around" }}>
-        <Grid xs={1} className="imgGrid">
-          <img src={FirstClient} className="ReviewImage" alt="Review image" />
+      <Grid item xs={12} container sx={{ justifyContent: "space-around" }}>
+        <Grid item xs={1} className="imgGrid">
+          <img src={FirstClient} className="ReviewImage" alt="Review" />
         </Grid>
-        <Grid xs={9} className="fullcont">
-        <img src={FirstClient} className="ReviewImage newlin" alt="Review image"  />
+        <Grid item xs={9} className="fullcont">
+        <img src={FirstClient} className="ReviewImage newlin" alt="Review"  />
           <h4 className="name">Marcokoe</h4>
           <p className="Reviewsub">2021</p>
           <p className="Reviews">
@@ -27,12 +27,12 @@ function TestiMonials() {
       </Grid>
       <Divider />
  {/* Review No # 2 */}
-      <Grid xs={12} container sx={{ justifyContent: "space-around", mt: 3 }}>
-        <Grid xs={1}  className="imgGrid" >
-          <img src={FirstClient3} className="ReviewImage" alt="Review image" />
+      <Grid item xs={12} container sx={{ justifyContent: "space-around", mt: 3 }}>
+        <Grid item xs={1}  className="imgGrid" >
+          <img src={FirstClient3} className="ReviewImage" alt="Review" />
         </Grid>
-        <Grid xs={9} className="fullcont" >
-        <img src={FirstClient3} className="ReviewImage newlin" alt="Review image" />
+        <Grid item xs={9} className="fullcont" >
+        <img src={FirstClient3} className="ReviewImage newlin" alt="Review" />
           <h4 className="name">Usain Bolt</h4>
           <p className="Reviewsub">2020</p>
           <p className="Reviews">
@@ -47,13 +47,13 @@ function TestiMonials() {
       <Divider />
 
  {/* Review No # 3 */}
-      <Grid xs={12} container sx={{ justifyContent: "space-around", mt: 3 }}>
-        <Grid xs={1}  className="imgGrid" >
-          <img src={FirstClient2} className="ReviewImage" alt="Review image" />
+      <Grid item xs={12} container sx={{ justifyContent: "space-around", mt: 3 }}>
+        <Grid item xs={1}  className="imgGrid" >
+          <img src={FirstClient2} className="ReviewImage" alt="Review" />
         </Grid>
         
-        <Grid xs={9} className="fullcont" >
-        <img src={FirstClient2} className="ReviewImage newlin" alt="Review image" />
+        <Grid item xs={9} className="fullcont" >
+        <img src={FirstClient2} className="ReviewImage newlin" alt="Review" />
           <h4 className="name">Kimberley Brennan</h4>
           <p className="Reviewsub">2021</p>
           <p className="Reviews">

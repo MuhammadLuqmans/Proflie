@@ -1,14 +1,12 @@
-import { Grid, Typography } from '@mui/material'
+import { Grid } from '@mui/material'
 import React from 'react'
-import { makeStyles } from '@mui/styles'
 import "./Main.css"
 
 
 function Header() {
-    const classes =  useStayles()
     return (
         <>
-          <Grid >
+          <Grid item >
               <p className="title">Software Engineer</p>
               </Grid>  
         </>
@@ -18,6 +16,3 @@ function Header() {
 export default Header
 
 
-const useStayles  = makeStyles(()=>({
-    
-}))

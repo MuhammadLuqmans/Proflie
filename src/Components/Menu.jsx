@@ -6,12 +6,11 @@ import React from "react";
 import './Main.css'
 import SmallImage from '../Imgs/de.PNG'
 import { Grid } from '@mui/material';
-import About from './MidSec/LinkEnd/GetIn'
 
 function Menu() {
   return (
       <div className="containerClass">
-        <Grid  xs={12} >
+        <Grid item xs={12} >
     <div className="menu">
       <ul>
        <a href="#"><li><img src={SmallImage} alt="small profile image" className="smallImg" /></li></a>

@@ -10,8 +10,8 @@ function Experience() {
   return (
     <div className="WorkPage">
       <p className="About">WORK EXPERIENCE</p>
-      <Grid xs={12}>
-        <Grid sx={12}>
+      <Grid item xs={12}>
+        <Grid item sx={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -38,7 +38,7 @@ function Experience() {
                       src={UpWork}
                       width="35px"
                       height="35px"
-                      alt="upwork Image"
+                      alt="upwork"
                     />
                     <p className="upworkTitle">Upwork - FreeLance</p>
                   </div>
@@ -55,7 +55,7 @@ function Experience() {
             </div>
           </div>
         </Grid>
-        <Grid sx={12}>
+        <Grid item sx={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -82,7 +82,7 @@ function Experience() {
                       src={Fiverr}
                       width="35px"
                       height="35px"
-                      alt="upwork Image"
+                      alt="upwork"
                     />
                     <p className="upworkTitle">Fiverr.com - FreeLance</p>
                   </div>
@@ -103,7 +103,7 @@ function Experience() {
         <p className="About" style={{ marginTop: "30px" }}>
           Education
         </p>
-        <Grid sx={12}>
+        <Grid item sx={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -128,7 +128,7 @@ function Experience() {
                       src={University}
                       width="35px"
                       height="35px"
-                      alt="upwork Image"
+                      alt="upwork"
                     />
                     <p className="upworkTitle">
                       Riphah International University
@@ -146,7 +146,7 @@ function Experience() {
             </div>
           </div>
         </Grid>
-        <Grid sx={12}>
+        <Grid item sx={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -171,7 +171,7 @@ function Experience() {
                       src={Saylani}
                       width="35px"
                       height="35px"
-                      alt="upwork Image"
+                      alt="upwork"
                     />
                     <p className="upworkTitle">
                       Saylani Mass I.T Training Program

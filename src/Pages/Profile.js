@@ -16,28 +16,28 @@ const Profile = () => {
 
   return (
     <div>
-      <Grid xs={12} >
+      <Grid item xs={12} >
         <Header  />
-        <Grid container className={classes.mainContainer} className="aboutsHid">
+        <Grid item container className={classes.mainContainer} className="aboutsHid">
           <Grid xs={12} md={3.5} lg={3.5} className="aboutsHid">
             <Card />
           </Grid>
-          <Grid xs={12} md={7.5} lg={7.5} className="aboutsHid">
+          <Grid item xs={12} md={7.5} lg={7.5} className="aboutsHid">
             <About />
           <Experience />
           <TestiMonials />
           <GetIn />
           </Grid>
-          <Grid xs={1} className="aboutsHid">
+          <Grid item xs={1} className="aboutsHid">
             <Menu />
           </Grid>
          
         </Grid>
-        <Grid sx={{ p: 0, m:0 }}>
+        <Grid item sx={{ p: 0, m:0 }}>
           <Grid className="aboutShow">
           <Card />
               </Grid>
-          <Grid xs={12} className="aboutShow">
+          <Grid item xs={12} className="aboutShow">
           <About />
           <Experience />
           <TestiMonials />
