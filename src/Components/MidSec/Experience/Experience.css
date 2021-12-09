@@ -70,7 +70,8 @@
     font-size: .870em;
     color: black;
     font-family: Quicksand, sans-serif;
-    line-height: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: .02em;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;

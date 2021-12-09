@@ -12,7 +12,7 @@ export default function About() {
       <div className={classes.AboutContainer}>
         <p>
           <p className="About">About Us</p>
-          <strong>Hello, I’m Muhammad Umar Ahmad!</strong>
+          <strong>Hello, I’m Muhammad Luqman!</strong>
           <br />
           Self-Motivated and Self-Taught Software Engineer, Interested in
           working with great people.

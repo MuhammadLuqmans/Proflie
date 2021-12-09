@@ -44,7 +44,7 @@ function Experience() {
                   </div>
                   <div className="CardContent">
                     <p>
-                      As of Oct 2021 completed 2 big projects with a 100%
+                      As of Nov 2021 completed 2 big projects with a 100%
                       success rate including creating a animation-based for a
                       Collage from scratch and integrating the Payment system
                       using Stripe.

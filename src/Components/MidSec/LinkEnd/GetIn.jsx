@@ -15,11 +15,10 @@ function GetIn() {
             <p><Mail className="Icon" /></p><p className="num"><b>luqmanaslam0303@gmail.com</b></p>
             </Grid>
             <Grid item container className="IconsCon">
-               <a href="#" > <Facebook className="rowIcons" /></a>
-               <a href="#" > <Twitter className="rowIcons" /></a>
-               <a href="#" >  <GitHub className="rowIcons" /></a>
-               <a href="#" >  <LinkedIn className="rowIcons" /></a>
-
+               <a href="https://www.facebook.com/luqman.aslam.9693" > <Facebook className="rowIcons" /></a>
+               <a href="https://twitter.com/Reactjs10?t=0CjAg0N7rtQ3VnH9f7wA7g&s=09" > <Twitter className="rowIcons" /></a>
+               <a href="https://github.com/MuhammadLuqmans" >  <LinkedIn className="rowIcons" /></a>
+               <a href="https://www.fiverr.com/share/Ej8Ary" >  <GitHub className="rowIcons" /></a>
             </Grid>
         </div>
     )

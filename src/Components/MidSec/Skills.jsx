@@ -97,7 +97,7 @@ export default function Skills() {
                 <span className="textBox">CSS</span>
                 <span className="textBox">Javascript</span>
         </Grid>
-        <Grid item sm={12} md={6} lg={6} className="name" sx={{mt:4}}>
+        <Grid item sm={12} md={6} lg={6} className="name" sx={{mt:{xs:4 ,sm:4,md:2,lg:2}}}>
                 <h4 className="languages">Databases</h4>
                 <span className="textBox">MongoDB</span>
                 <span className="textBox">FaunaDB</span>

@@ -13,14 +13,10 @@
     border-radius: 50%;
 }
 .containerClass{
-    padding:5px;
-    margin:0 5%;
+    padding-right:5px;
     width: 100%;
 }
-.MidContainer{
-    border: 2px dotted blue;
-    width: 65%;
-}
+
 @media screen and (max-width: 1060px) {
     .title{
         background-color: #fff;
@@ -43,9 +39,7 @@
 /* Menu Designs */
 ul a {
     text-decoration: none;
-    color: #000;
 }
 ul a li {
     list-style-type: none;
-  
 }

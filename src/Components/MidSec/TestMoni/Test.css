@@ -15,6 +15,7 @@
     width: 100%;
     color: black;
     line-height: 1.5rem;
+    font-weight: 400;
     word-spacing: 0.4em;
 }
 .Reviewsub{
@@ -35,9 +36,13 @@
 .feelText{
     width: 80%;
     margin: auto;
+    /* text-align: left; */
+    margin-bottom: 20px;
+    line-height: 1.8rem;
+    font-size: 20px;font-family: Quicksand, sans-serif;
 }
 .rowIcons{
-    border: 5px solid #c0e3e7;
+    border: 5px solid #fff;
     border-radius: 50%;
     padding:7px;
     margin-top: 20px;
