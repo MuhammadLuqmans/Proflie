@@ -17,10 +17,7 @@
   color: #000;
 }
 .subtile {
-  font-size: 1.35em;
-  font-family: Quicksand, sans-serif;
-  text-transform: uppercase;
-  color: solid #000;
+
 }
 .dot {
   width: 0.938 em;
@@ -64,6 +61,7 @@
   margin: 0 10px 7px 0;
   border-radius: 5px;
   padding: 3px 12px;
+  font-weight: 400;
   background-color: #c0e3e7;
   box-sizing: border-box;
   color: #000;
@@ -71,8 +69,8 @@
 .languages{
     padding:0px;
     margin: 0px;
-    font-size: 1.35em;
-    color: #757575;
-    font-weight: normal;
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
     margin-bottom: 8px;
 }

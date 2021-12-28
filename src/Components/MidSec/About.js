@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
 import "./About.css";
-import { Divider } from "@mui/material";
+import { Divider, Typography } from "@mui/material";
 import Skills from "./Skills";
 
 export default function About() {
@@ -10,22 +10,23 @@ export default function About() {
   return (
     <div>
       <div className={classes.AboutContainer}>
-        <p>
+        <div>
           <p className="About">About Us</p>
-          <strong>Hello, I’m Muhammad Luqman!</strong>
+          <Typography sx={{ fontWeight:"bold", fontSize:"20px",fontFamily:"Quicksand, sans-serif",mb:1}}>Hello, I’m Muhammad Luqman!</Typography>
+    
+          <Typography sx={{ fontFamily:"Quicksand, sans-serif",color:"#000",fontWeight:"450",fontSize:"18px"}}>
+ Self-Motivated and Self-Taught Software Engineer, Interested in
+          working with great people.</Typography>
           <br />
-          Self-Motivated and Self-Taught Software Engineer, Interested in
-          working with great people.
+          <Typography sx={{ fontFamily:"Quicksand, sans-serif",color:"#000",fontWeight:"450",fontSize:"18px"}}>
+I have over 8 years of experience in developing Web and Mobile apps
+          using the latest state-of-the-art technologies assisted many startups
+          in Canada and the UK as the technical lead.</Typography>
           <br />
-          <br />
-          I have over 8 years of experience in developing Web and Mobile apps
-          using the latest state-of-the-art technologies; assisted many startups
-          in Canada and the UK as the technical lead.
-          <br />
-          <br />
-          Feel free to contact me to know more about my skills and experience,
-          or for inviting me to work on a project. 
-        </p>
+          <Typography sx={{ fontFamily:"Quicksand, sans-serif",color:"#000",fontWeight:"450",fontSize:"18px"}}>
+Feel free to contact me to know more about my skills and experience,
+          or for inviting me to work on a project.</Typography>
+        </div>
         <br />
         <Divider />
         <Skills />

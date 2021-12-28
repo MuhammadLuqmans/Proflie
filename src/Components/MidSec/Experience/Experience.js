@@ -1,4 +1,4 @@
-import { Divider, Grid } from "@mui/material";
+import { Divider, Grid,Typography } from "@mui/material";
 import React from "react";
 import "./Experience.css";
 import UpWork from "../../../Imgs/upwork.png";
@@ -11,7 +11,7 @@ function Experience() {
     <div className="WorkPage">
       <p className="About">WORK EXPERIENCE</p>
       <Grid item xs={12}>
-        <Grid item sx={12}>
+        <Grid item xs={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -43,19 +43,19 @@ function Experience() {
                     <p className="upworkTitle">Upwork - FreeLance</p>
                   </div>
                   <div className="CardContent">
-                    <p>
+                  <Typography sx={{ fontFamily:"Quicksand, sans-serif",color:"#000",fontWeight:"550"}}>
                       As of Nov 2021 completed 2 big projects with a 100%
                       success rate including creating a animation-based for a
                       Collage from scratch and integrating the Payment system
                       using Stripe.
-                    </p>
+                    </Typography>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </Grid>
-        <Grid item sx={12}>
+        <Grid item xs={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -87,12 +87,12 @@ function Experience() {
                     <p className="upworkTitle">Fiverr.com - FreeLance</p>
                   </div>
                   <div className="CardContent">
-                    <p>
+                  <Typography sx={{ fontFamily:"Quicksand, sans-serif",color:"#000",fontWeight:"550"}}>
                       Completed 2+ projects with a 100% success rate including
                       creating a geolocation-based food delivery application
                       from scratch and integrating the Payment system using
                       Stripe.
-                    </p>
+                    </Typography>
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ function Experience() {
         <p className="About" style={{ marginTop: "30px" }}>
           Education
         </p>
-        <Grid item sx={12}>
+        <Grid item xs={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>
@@ -146,7 +146,7 @@ function Experience() {
             </div>
           </div>
         </Grid>
-        <Grid item sx={12}>
+        <Grid item xs={12}>
           <div className="Education">
             <div className="Education-box">
               <b className="dotseducation">.</b>

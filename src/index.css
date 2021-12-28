@@ -3,14 +3,15 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./Imgs/bg.jpg');
+  background-image: url('./Imgs/newbg2.gif');
   background-position:center ;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   background-attachment: fixed;
+  font-family:Quicksand, sans-serif;
+  /* word-spacing: 0.35em; */
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
