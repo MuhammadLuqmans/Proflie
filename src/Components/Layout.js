@@ -22,7 +22,7 @@ function Menu() {
         <Grid item xs={12}>
     <div className="menu">
       <List>
-      <Link href="#about"><ListItem><Tooltip title="About"><img src={SmallImage} alt="small profile image" className="smallImg" /></Tooltip></ListItem></Link>
+      <Link href="#about"><ListItem><Tooltip title="About"><img src={SmallImage} alt="small profile" className="smallImg" /></Tooltip></ListItem></Link>
       <Link href="#about" ><ListItem><Tooltip title="About"><CardGiftcardIcon  sx={{ fontSize : "45px" , mt:0.7,color:"#000" }} /></Tooltip></ListItem></Link>
       <Link href="#Experience" ><ListItem><Tooltip title="Experience"><SchoolOutlinedIcon  sx={{ fontSize : "45px",height:"50px" ,mt:0.7,color:"#000"}} /></Tooltip></ListItem></Link>
       <Link href="#TestiM" ><ListItem><Tooltip title="Testimonials"><TextsmsOutlinedIcon  sx={{ fontSize : "45px", mt:0.7,color:"#000"}}  /></Tooltip></ListItem></Link>

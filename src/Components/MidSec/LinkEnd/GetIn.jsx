@@ -23,7 +23,8 @@ function GetIn() {
                <Link href="https://github.com/MuhammadLuqmans" >  <GitHub className="rowIcons" /></Link>
             </Grid>
         </div>
-        <Typography sx={{ textAlign:"center",fontSize:"12px", mb:2}}>@2021 created and Love by Muhammad Luqman</Typography>
+        <Typography sx={{ textAlign:"center",fontSize:"12px",color:"gray"}}>@2021 created and Love by Muhammad Luqman</Typography>
+        <br />
         </>
     )
 }

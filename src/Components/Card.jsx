@@ -1,5 +1,5 @@
-import { Facebook, GitHub, LinkedIn, Twitter } from '@mui/icons-material'
-import { Tooltip ,Link, Typography } from '@mui/material'
+import {  GitHub, LinkedIn, Twitter } from '@mui/icons-material'
+import { Link, Typography } from '@mui/material'
 import React from 'react'
 import Myprofile from '../Imgs/de.PNG'
 import Skype from '../Imgs/skype2.png'
